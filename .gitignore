@@ -36,3 +36,18 @@ yarn-error.*
 *.tsbuildinfo
 
 app-example
+
+# ignore release properties
+
+android/gradle.properties
+android/app/my-upload-key.keystore
+
+
+# ignore Dynatrace config
+dynatrace.config.js
+
+# ignore android and ios builds 
+
+android/
+ios/
+
